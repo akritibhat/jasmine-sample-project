@@ -6,7 +6,7 @@ phases:
           - npm install
     build:
         commands:
-          - jasmine
+          - npx jasmine
 
 reports:
     calculator-reports:
