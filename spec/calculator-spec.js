@@ -1,4 +1,8 @@
+
+
 describe('Calculator', function(){
+    var Calculator = require('../Calculator');
+
     var calculator;
 
     beforeEach(function(){
