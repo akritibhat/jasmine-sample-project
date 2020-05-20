@@ -8,5 +8,3 @@ Calculator.prototype.add = function(a,b) {
 Calculator.prototype.subtract = function(a,b) {
     return a - b;
 }
-
-module.exports = Calculator;
