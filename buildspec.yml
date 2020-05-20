@@ -7,7 +7,6 @@ phases:
     build:
         commands:
           - npx jasmine
-
 reports:
     calculator-reports:
         files:

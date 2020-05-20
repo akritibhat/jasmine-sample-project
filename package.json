@@ -1,8 +1,9 @@
 {
   "devDependencies": {
+    "jasmine": "^3.5.0",
     "jasmine-reporters": "^2.0.0"
   },
-  "dependencies": {
-    "jasmine": "3.5.0"
+  "scripts": {
+    "test": "npx jasmine"
   }
 }
