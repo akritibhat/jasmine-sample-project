@@ -1,12 +1,12 @@
 version: 0.2
-
 phases:
     pre_build:
         commands:
           - npm install
     build:
         commands:
-          - npx jasmine
+          - npm build
+          - npm test
 reports:
     calculator-reports:
         files:
