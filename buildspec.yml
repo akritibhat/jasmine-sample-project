@@ -10,6 +10,6 @@ phases:
 reports:
     calculator-reports:
         files:
-            - '**/*'
+            - 'report.xml'
         file-format: JunitXml
-        base-directory: 'spec'
+        base-directory: 'test_reports'
