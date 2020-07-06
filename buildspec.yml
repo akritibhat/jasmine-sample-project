@@ -7,6 +7,9 @@ phases:
         commands:
           - npm build
           - npm test
+artifacts:
+    files:
+             - '**/*
 reports:
     calculator-reports:
         files:
