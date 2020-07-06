@@ -8,10 +8,11 @@ phases:
           - npm build
           - npm test
 artifacts:
-    files:
-          - '**/*
+        type: zip
+        files:
+          - '**/*'
 reports:
-    calculator-reports:
+    calc-reports:
         files:
             - 'report.xml'
         file-format: JunitXml
