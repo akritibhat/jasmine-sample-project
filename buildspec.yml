@@ -9,7 +9,7 @@ phases:
           - npm test
 artifacts:
     files:
-             - '**/*
+          - '**/*
 reports:
     calculator-reports:
         files:
