@@ -17,3 +17,8 @@ reports:
             - 'report.xml'
         file-format: JunitXml
         base-directory: 'test_reports'
+    cov-reports:
+        files:
+            - 'coberturareport.xml'
+        file-format: Coberturaxml
+        base-directory: 'cov_reports'    
